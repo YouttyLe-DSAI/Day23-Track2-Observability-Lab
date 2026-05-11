@@ -13,7 +13,11 @@
 Paste output of `python3 00-setup/verify-docker.py`:
 
 ```
-... paste here ...
+(Vin20k) PS D:\FPTU\Vin\Day23-Track2-Observability-Lab\00-setup> python verify-docker.py
+Docker:        OK  (29.4.0)
+Compose v2:    OK  (5.1.1)
+RAM available: 7.63 GB (OK)
+Ports free:    OK
 ```
 
 ---
