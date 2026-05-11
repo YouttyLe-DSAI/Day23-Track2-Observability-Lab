@@ -122,6 +122,8 @@ Paste `04-drift-detection/reports/drift-summary.json`:
 
 ### Which prior-day metric was hardest to expose? Why?
 
+![Cross-Day Integration](./evidence/bonus.jpg)
+
 Exposing the `inference_requests_total` with custom labels from previous days was the most challenging. Ensuring the OTel collector correctly scraped these metrics while maintaining the correct resource attributes required precise configuration of the Prometheus receiver in the collector's pipeline.
 
 ---
